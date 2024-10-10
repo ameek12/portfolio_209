@@ -1,0 +1,26 @@
+@import url('../style.css');
+input,
+textarea,
+select {
+    font: inherit;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.75em; 
+    margin-bottom: 1em; 
+}
+
+form {
+    max-width: 600px; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em; 
+}
+
+label {
+    margin-block: 1em;
+    display: grid; 
+    grid-template-columns: subgrid; 
+    grid-column: 1 / -1; 
+}
